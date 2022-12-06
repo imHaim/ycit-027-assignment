@@ -4,6 +4,10 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <script defer src="./script.js"></script>
+ 
+        <!-- Favicon is added and can be seen on the window tab -->
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+ 
         <link rel="stylesheet" href="./styles.css" />
         <title>YCIT-s027-Assignment-1-of-1</title>
     </head>
@@ -12,7 +16,10 @@
         <p>Click the button to get your cat image</p>
         <button type="button" onclick="getCatImage()">Get Cat Image</button>
         <div class=".image-container">
-            <img src="" id="catImage" alt="cat image" />
+ 
+        <!-- Default image is added so that the broken link disappears -->
+        <img src="meow.JPG" id="catImage" alt="cat image" />
+ 
         </div>
     </body>
 </html>

@@ -19,3 +19,6 @@
 **NOTE**: If you do not push your changes to your repository, you will not get the 10%
 
 **PROBLEMS?**: Please write below this line if you are encountering any problems. If you detail your problems here, you will get the 10%. Just be sure to push your changes to your forked repository.
+
+I had a lot of issues trying to add html to the class. I could add text (with a textnode creation and appendage), but for some reason, everytime i tried adding html or even just plain text without a textnode, it would give me errors. I tried appending, using innerhtml, insertadjacent, etc. 
+ 
